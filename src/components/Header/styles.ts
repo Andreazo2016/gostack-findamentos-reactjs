@@ -29,7 +29,17 @@ export const Container = styled.div<ContainerProps>`
 
         &:hover {
           opacity: 0.6;
+          color:"#FF872C"
         }
+      }
+
+      ul{
+        display:flex;
+        flex-direction:row;
+        a{
+            margin-left:10px;
+
+          }
       }
     }
   }
